@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     
     //switch	
-char c=0;
+//char c=0;
 //basic scaffold 
 //Rotation cipher where a=0,b=1,c=2...z=25
 
