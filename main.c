@@ -4,15 +4,18 @@
 int main(){
     
     //switch	
-char c=0;
+//char c=0;
 //basic scaffold 
 //Rotation cipher where a=0,b=1,c=2...z=25
+//go through entire array until finding /N character 
+
+void rotation(char* text, int key);
+int main(){
+	int key=1;
+	char str[100];
 
 
-
-
-
-switch(c)
+/*switch(c)
 
 case 1:
 	printf("Please select an option");
