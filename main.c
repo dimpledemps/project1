@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib>
 
 int main(){
     
@@ -9,10 +10,16 @@ int main(){
 //Rotation cipher where a=0,b=1,c=2...z=25
 
 
+void rotation (char* text, int key)
+int main(){
+    int key=1;
+    char str[100];
+    printf("Please enter a message to decrypt");
+}
 
 
 
-switch(c)
+/*switch(c)
 
 case 1:
 	printf("Please select an option");
