@@ -8,17 +8,22 @@ int main(){
 //char c=0;
 //basic scaffold 
 //Rotation cipher where a=0,b=1,c=2...z=25
+//go through entire array until finding /N character 
 
-
-void rotation (char* text, int key)
+void rotation(char* text, int key);
 int main(){
-    int key=1;
-    char str[100];
-    printf("Please enter a message to decrypt");
+	int key=1;
+	char str[100];
+
+
+    //char str[100];
+   // printf("Please enter a message to decrypt");
 }
 
 
 
+=======
+>>>>>>> refs/heads/master
 /*switch(c)
 
 case 1:
