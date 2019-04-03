@@ -22,8 +22,7 @@ int main(){
 
 
 
-=======
->>>>>>> refs/heads/master
+
 /*switch(c)
 
 case 1:
