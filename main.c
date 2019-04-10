@@ -13,21 +13,21 @@ int main(void){
 int key=1; //shift letters by one place 
 char text[101]; //array of letters *check this
 
-printf("Enter word for encryption");
-fgets(text, sizeof(text), stdin);
-//print text
-printf("Ciphered text:");
-encrypt(text,key);
 
 
-void encrypt(chair* text, int key)
+void encrypt(char* text, int key)
 {
-	int i=0;
-	char cipher;
+	
+	char word;
 	char cipherValue;
+	
+	for(int i=0; [i]array.length; i++)
+	{
+	    
+	}
 //backspace character is \0 
 	//-1 terminating character 
-	while(text[i] != \0 && strlen(text) -1 >i)
+	while(text[i] != \0 && //array.length) -1 >i)
 	{
 		cypherValue=((int)text[i]-97 + key) % 26 + 97;
 		cipher=char(cipherValue);
