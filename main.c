@@ -13,7 +13,7 @@ int main(void){
 int key=1; //shift letters by one place 
 char text[101]; //array of letters *check this
 
-
+//need a for loop for determining the length of the string 
 //int length;
 //need a better method to calculate the length of an array 
 void encrypt(char[arr], int key)
@@ -24,17 +24,17 @@ void encrypt(char[arr], int key)
 	
 	for(int i=0; strlen[arr]; i++)
 	{
-	    
+	    //message 
 	}
 //backspace character is \0 
 	//-1 terminating character 
-	while(text[i] != \0 && //array.length) -1 >i)
-	{
-		//cypherValue=((int)text[i]-97 + key) % 26 + 97;
-		cipher=char(cipherValue);
+	//while(text[i] != \0 && ) -1 >i)
+	//{
+		////cypherValue=((int)text[i]-97 + key) % 26 + 97;
+		//cipher=char(cipherValue);
 
-		printf("%c\n", cipher);
-		i++;
+		//printf("%c\n", cipher);
+		//i++;
 
 	}
 }
@@ -49,26 +49,6 @@ void encrypt(char[arr], int key)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-//(char) chipherValue
-//int main(){
-  
-//void decryptCipher(char arr[])
-//for (int i=0; i < )
-  
-  
-  
-  
   
   
   
