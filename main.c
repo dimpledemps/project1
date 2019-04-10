@@ -14,14 +14,15 @@ int key=1; //shift letters by one place
 char text[101]; //array of letters *check this
 
 
-
-void encrypt(char* text, int key)
+//int length;
+//need a better method to calculate the length of an array 
+void encrypt(char[arr], int key)
 {
 	
 	char word;
 	char cipherValue;
 	
-	for(int i=0; [i]array.length; i++)
+	for(int i=0; strlen[arr]; i++)
 	{
 	    
 	}
@@ -29,7 +30,7 @@ void encrypt(char* text, int key)
 	//-1 terminating character 
 	while(text[i] != \0 && //array.length) -1 >i)
 	{
-		cypherValue=((int)text[i]-97 + key) % 26 + 97;
+		//cypherValue=((int)text[i]-97 + key) % 26 + 97;
 		cipher=char(cipherValue);
 
 		printf("%c\n", cipher);
