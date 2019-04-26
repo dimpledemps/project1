@@ -246,11 +246,11 @@ void makeStringUpperCase(char *string)
     }
 }
 
-//Find the index of a character in a string (e.g. string: Duck, ch: c would return 2)
+//Find the index of a character in a string 
 int findCharInString(char *string, char ch)
 {
     int index;
-    //Loop through characters in string and compare to target character, return index if match
+    //Loop through characters in string and compare to target character, return index if it matches
     for(index = 0; string[index] != '\0'; index++){
         if(string[index] == ch)
         {
