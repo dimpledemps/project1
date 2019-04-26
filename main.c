@@ -114,7 +114,9 @@ int main()
    default:
       printf("Invalid input, please select an option from the menu\n");
       
-   } //switch bracket
+   } 
+  //Make console look neater 
+   printf("\n");
    return 0;
 }
 
