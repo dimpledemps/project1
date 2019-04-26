@@ -212,9 +212,7 @@ void decryptWithSubstitution (char *message, char *alphabet)
             //If not found, their alphabet was missing characters that were needed
             if(index == -1)
             {
-                //Consider what to do here, print an error message and then maybe quit?
                 printf("Error: the substitution alphabet supplied was missing characters");
-                //...
             }
             
             //Get difference between ASCII value of user alphabet char and normal alphabet char
