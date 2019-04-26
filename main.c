@@ -38,7 +38,7 @@ int main()
 
    //SWITCH-CASE THAT CORRELATES WITH USER INPUT 
    switch(x)
-   { //switch bracket 
+   { 
    case 1: //Encrypt message with rotation cipher 
 
         //Prompt user to enter message to be encrypted
