@@ -30,7 +30,7 @@ int main()
 
    //MENU
    do{
-   printf("Please choose an option from the list:\n");
+   printf("Please choose an option from the menu:\n");
    printf("1.Encrypt a message using rotation cipher \n");
    printf("2.Decrypt a message using rotation cipher\n");
    printf("3.Encrypt a message using substitution cipher\n");
