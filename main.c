@@ -28,14 +28,20 @@ int main()
     char message[101];
     char alphabet[26]; //MOVED FROM CASE 3 AND 4 
 
-   //MENU 
+   //MENU
+   do{
    printf("Please choose an option from the list:\n");
    printf("1.Encrypt a message using rotation cipher \n");
    printf("2.Decrypt a message using rotation cipher\n");
    printf("3.Encrypt a message using substitution cipher\n");
    printf("4.Decrypt a message using substitution cipher\n");
+   printf("5.Exit\n");
    scanf("%d", &x);
-
+    if(x==5)
+    {
+        break;
+    }
+    
    //SWITCH-CASE THAT CORRELATES WITH USER INPUT 
    switch(x)
    { 
@@ -107,18 +113,21 @@ int main()
         decryptWithSubstitution(message, alphabet);
         
         //Print decrypted message
-        printf("Encrypted message:%s\n", message);
+        printf("Encrypted message:%s\n", message);    
+        break;
         
-      break;
+        case 5:
+        break;
     
    default:
-      printf("Invalid input, please select an option from the menu\n");
-      
+      printf("Invalid input, please select an option from the menu\n");   
    } 
+   }while (x != 5);
+ }
   //Make console look neater 
-   printf("\n");
-   return 0;
-}
+  // printf("\n");
+  // return 0;
+
 
 //FUNCTIONS
 void encryptWithRotation(char *message, int key)
